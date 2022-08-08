@@ -47,7 +47,7 @@ def wall_get():
         print(f'Получение поста - НЕУСПЕШНО\n')
 
 def wall_post(): # Постим абсолютно любой текст
-    a = vk.wall.post(owner_id = own_id, close_comments=1, message=f'''
+    a = vk.wall.post(owner_id = own_id, close_comments=1, message='''
         Hello world 
                 ''')
     wall_get() 
